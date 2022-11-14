@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="../img/mi.png" />
+    <title>LOT开发者平台</title>
+    <link rel="stylesheet" href="../css/loTDeveloperPlatform.css">
+    <script src="../js/vue.global.js"></script>
+    
+</head>
+
+<body>
+<div id="xiaomiapplot">
+    <header>
+        <div class="nav-father">
+            <nav>
+                <a href="#">
+                    <img src="../img/loTDeveloperPlatform/head/1.png" alt="">
+                </a>
+                <ul>
+                    <li class="first-link"><a href="#">首页</a></li>
+                    <li><a href="#">{{msg}}</a></li>
+                    <li><a href="#">登录/注册</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="slide-show">
+
+            <ul>
+                <li>
+                    <div class="introduce-box">
+                        <div>
+                            <p>开放云对云接入方案3</p>
+                        </div>
+                        <div>
+                            <p>连接第三方平台的智能硬件也可以接入小爱同学</p>
+                            <p>AI时代尽享语音智控</p>
+                        </div>
+                        <div><a href="#">了解更多</a></div>
+                    </div>
+                </li>
+            </ul>
+
+
+        </div>
+    </header>
+
+    <div class="content">
+        <section class="sec-one">
+            <ul>
+                <li class="upward-move"><img src="../img/loTDeveloperPlatform/process/1.png" alt=""></li>
+                <li class="upward-move"><img src="../img/loTDeveloperPlatform/process/2.png" alt=""></li>
+                <li class="upward-move"><img src="../img/loTDeveloperPlatform/process/3.png" alt=""></li>
+                <li class="upward-move"><img src="../img/loTDeveloperPlatform/process/4.png" alt=""></li>
+            </ul>
+        </section>
+        <section class="sec-two" >
+            <p class="title">关于平台</p>
+            <p class="title-description ">小米IoT开发者平台面向智能家居、智能家电、健康可穿戴、出行车载等领域，开放智能硬件接入、智能硬件控制、</p>
+            <p class="title-description">自动化场景、AI技术、新零售渠道等小米特色优质资源，与合作伙伴一起打造极致的物联网体验。</p>
+            <div class="mar-top-70">
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/1.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/2.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/3.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/4.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/5.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/6.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/7.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/8.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/9.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/10.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/11.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/12.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/13.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/14.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/15.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/16.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/17.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/18.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/19.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/20.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/21.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/22.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/23.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/24.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/1.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/2.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/3.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/4.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/5.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/6.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/7.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/8.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/9.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/10.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/11.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/12.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/13.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/14.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/15.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/16.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/17.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/18.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/19.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/20.jpg" alt=""></li>
+                </ul>
+                <ul :style="secTwoStyle">
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/21.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/22.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/23.jpg" alt=""></li>
+                    <li><img src="../img/loTDeveloperPlatform/houseMark/24.jpg" alt=""></li>
+                </ul>
+            </div>
+        </section>
+        <section class="sec-three">
+            <p class="title">合作方案</p>
+            <div class="mar-top-70">
+                <ul>
+                    <li>
+                        <div class="upward-move"><img src="../img/loTDeveloperPlatform/process/5.png" alt=""></div>
+                        <p>直连接入</p>
+                        <p>智能硬件通过嵌入小米智能模组或集成SDK的方式连接到小米IoT平台。</p>
+                        <p>适合无自有云平台的开发者，或者希望产品上架小米有品的开发者。</p>
+                        <div><a href="#">了解更多</a></div>
+                    </li>
+                    <li>
+                        <div class="upward-move"><img src="../img/loTDeveloperPlatform/process/6.png" alt=""></div>
+                        <p>云对云接入</p>
+                        <p>智能硬件通过自有云平台连接到小米IoT平台</p>
+                        <p>适合有自有云平台的开发者，或者希望产品仅接入小爱的开发者。</p>
+                        <div><a href="#">了解更多</a></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sec-four">
+            <p class="title">合作流程</p>
+            <ul>
+                <li>
+                    <div><img src="../img/loTDeveloperPlatform/process/7.png" alt=""></div>
+                    <p>成为开发者</p>
+                    <p>注册开发者资质，获得平台</p>
+                    <p>使用开发权限</p>
+                    <hr />
+                </li>
+                <li>
+                    <div><img src="../img/loTDeveloperPlatform/process/8.png" alt=""></div>
+                    <p>创建产品</p>
+                    <p>确定产品功能与技术方案，</p>
+                    <p>正式立项</p>
+                    <hr />
+                </li>
+                <li>
+                    <div><img src="../img/loTDeveloperPlatform/process/9.png" alt=""></div>
+                    <p>研发产品</p>
+                    <p>开发产品软硬件功能，自行</p>
+                    <p>测试通过</p>
+                    <hr />
+                </li>
+                <li>
+                    <div><img src="../img/loTDeveloperPlatform/process/10.png" alt=""></div>
+                    <p>认证产品</p>
+                    <p>寄送产品样机和测试报告，</p>
+                    <p>由平台检验确认</p>
+                    <hr />
+                </li>
+                <li>
+                    <div><img src="../img/loTDeveloperPlatform/process/11.png" alt=""></div>
+                    <p>发布产品</p>
+                    <p>获得平台授权，进行产品销</p>
+                    <p>售和推广</p>
+                </li>
+            </ul>
+            <div>
+                <a href="#">申请合作</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <section class="sec-video">
+            <div>
+                <div ><img src="../img/loTDeveloperPlatform/background/2.png" alt="" @click="OpenVideoBox()"></div>
+                <p>极致物联 智享生活</p>
+            </div>
+        </section>
+        <section class="sec-friendLink">
+            <div class="box">
+                <div>
+                    <p>关于平台</p>
+                    <p><a href="#">平台介绍</a></p>
+                    <p><a href="#">直连接入方案</a></p>
+                    <p><a href="#">云对云接入方案</a></p>
+                    <p><a href="#">小米模组采购</a></p>
+                    <p><a href="#">服务协议</a></p>
+                </div>
+                <div>
+
+                    <p>友情链接</p>
+                    <p><a href="#">小米生态云</a></p>
+                    <p><a href="#">小米开放平台</a></p>
+                    <p><a href="#">小米商城</a></p>
+                    <p><a href="#">小米有品</a></p>
+                    <p><a href="#">联系我们</a></p>
+                </div>
+                <div>
+                    <p>联系我们</p>
+                    <p><a>邮箱：miot-openhome@xiaomi.com</a></p>
+                </div>
+            </div>
+
+        </section>
+        <section class="sec-policeNum">
+            <p>京ICP证110507号 京ICP备100463444号 京公网安备1101085212535号</p>
+        </section>
+    </footer>
+
+    <div class="modal-box" v-if="boxVisable" :style="modalboxstyle">
+        <div>
+            <div class="btn-close" @click="CloseVideoBox()">X</div>
+            <video src="../video/loTDeveloperPlatform/1.mp4" autoplay controls></video>
+        </div>
+    </div>
+
+</div>
+<script>
+        const xiaomiapplot = Vue.createApp({
+            data() {
+                return {
+                    msg: "小米商城",
+                    modalboxstyle:{
+                        display:"none"
+                    },
+                    boxVisable:false,
+                    secTwoStyle:{
+                        left:"600px"
+                    },
+                    rightMoveid:0,
+                    leftMoveid:0,
+                    secMoveDelt:0,
+                }
+            }, 
+            methods: {
+                OpenVideoBox()
+                {
+                    this.modalboxstyle.display = "block";
+                    this.boxVisable=true;
+                    clearInterval(this.rightMoveid);
+                },
+                CloseVideoBox()
+                {
+                    this.modalboxstyle.display = "none"; 
+                    this.boxVisable=false;
+                },
+                SecRightMove()
+                {
+                    this.rightMoveid=setInterval(()=>{
+                        this.secMoveDelt+=1;
+                        this.secTwoStyle.left = this.secMoveDelt+"px";
+                    }
+                    ,10)
+                },
+                SecLeftMove()
+                {
+                    this.leftMoveid=setInterval(()=>{
+                        this.secMoveDelt-=1;
+                        this.secTwoStyle.left = this.secMoveDelt+"px";
+                    }
+                    ,10) 
+                }
+            }, 
+            mounted() {
+                this.SecRightMove();
+            },
+            watch:{
+                secMoveDelt(newsecMoveDelt,oldsecMoveDelt)
+                {
+                    console.log(newsecMoveDelt+":"+oldsecMoveDelt)
+                    if(newsecMoveDelt>400)
+                    {
+                        clearInterval(this.rightMoveid);
+                        this.SecLeftMove();
+                    }
+                    if(newsecMoveDelt<-400)
+                    {
+                        clearInterval(this.leftMoveid);
+                        this.SecRightMove();
+                    }
+                }
+            }
+        });
+
+        xiaomiapplot.mount("#xiaomiapplot");
+
+</script>
+</body>
+
+</html>
